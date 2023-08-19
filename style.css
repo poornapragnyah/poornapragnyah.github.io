@@ -1,0 +1,55 @@
+.gradient-background {
+  background: radial-gradient(circle at top, #ba099f, #5c42bb);
+}
+
+h1 .heading {
+  font-family: "MuseoModerno", sans-serif;
+}
+
+.btn-primary {
+  background-color: #ba099f;
+  border-color: #ba099f;
+  --bs-btn-active-bg: #fff;
+  --bs-btn-active-border-color:#ba099f;
+  
+}
+
+.btn:hover {
+  background-color: rgb(255, 255, 255);
+  border-color: #ba099f;
+  color: #ba099f;
+}
+
+.btn {
+  border-color: #ba099f;
+}
+
+.nav-link {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.text-body-emphasis {
+  color: #450b4d !important;
+}
+
+svg {
+  background: radial-gradient(circle at top, #ba099f, #5c42bb);
+}
+
+.nav{
+  --bs-nav-link-hover-color: rgb(97, 12, 101); 
+}
+
+.card.shadow-sm img {
+  width: 100%;
+  padding: 5px;
+  
+}
+
+
+img{
+    height:fit-content
+}
+
