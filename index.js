@@ -36,7 +36,7 @@ viewScroll.forEach(function(view){
     })
 });
 
-var linkElements = document.querySelectorAll(".links");
+var linkElements = document.querySelectorAll(".links1");
 var popupEle = document.querySelector(".popup");
 
 // Add click event listener to each link element
@@ -51,7 +51,7 @@ linkElements.forEach(function(link) {
         document.querySelector("body > div.popup > h2").innerHTML = "I've taken the social media scenic route, avoiding the Twittering birds, Facebook walls, and Instagram filters!"
         document.querySelector("body > div.popup > p").innerHTML = ""
     }
-    else if(link.classList.contains("resume")||link.classList.contains("viewBtn")){
+    else if(link.classList.contains("resume")){
         document.querySelector("body > div.popup > h2").innerHTML = "Oops"
         document.querySelector("body > div.popup > p").innerHTML = "Looks like this part is missing:/"
     }
