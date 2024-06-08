@@ -1,0 +1,41 @@
+$date
+	Sun Aug 20 21:13:44 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_nandGate $end
+$var wire 1 ! t_y $end
+$var reg 1 " t_a $end
+$var reg 1 # t_b $end
+$scope module nandGate_inst $end
+$var wire 1 $ a $end
+$var wire 1 % b $end
+$var wire 1 ! y $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0%
+0$
+0#
+0"
+1!
+$end
+#5
+1#
+1%
+#10
+0#
+0%
+1"
+1$
+#15
+0!
+1#
+1%
+#20
